@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Patrick Westervelt</title>
+	<title>Patrick Westervelt: Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link href="https://fonts.googleapis.com/css?family=Charm|Major+Mono+Display|Slabo+27px|Karla" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 	<div id="navbar">
-		<ul>
-			<li><a href="#film">Films</a></li>
-			<li><a href="#programs">Programs</a></li>
-			<li><a href="#games">Games</a></li>
-			<li><a href="#contact">Resume/Contact</a></li>
+		<ul id="navbar-items">
+			<li class="navbar-link"><a href="#about">About</a></li>
+			<li class="navbar-link"><a href="#education">Education</a></li>
+			<li class="navbar-link"><a href="#experience">Experience</a></li>
+			<li class="navbar-link"><a href="#projects">Projects</a></li>
+			<li class="navbar-link"><a href="#contact">Contact</a></li>
 		</ul>
 	</div>
 	<div id="banner">
-		<h1>Patrick Westervelt.</h1>
-		<h2><span id="artist">Artist.</span> <span id="programmer">programmer.</span> <span id="filmmaker">Filmmaker.</span> And everything inbetween.</h2>
+		<span id="banner-text">
+			<h1>Patrick Westervelt.</h1>
+			<h2>Artist. Programmer. And everything inbetween.</h2>
+		</span>
 	</div>
-	<div id="film" name="film">
-		<h3>Film and Video</h3>
-		<h4>As a Visual Media Arts Major at Emerson College, I've worked on several student films, created computer animated shorts, and ranked in local 48-hour film competitions on teams with my peers. These are a few of my favorites.</h4>
-		<div class="video-row">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/Immb4BZxjH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/gTzfYo_dtqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-		<div class="video-row">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/s8eLUvlrFW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/PQ-xcAua0WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+	<div id="about" class="section flex-section">
+		<h3 id="about-header">About Me</h3>
+		<p id="about-text">My name is Patrick, and I really love technology, and I really love art. So often, to me, it feels like the world tries to put those things at some kind of opposition to each other; do you like art, or do you like math and science? Well, what if I like both? Because I do. I love making films with my friends, and I love cracking a difficult problem. The thing I love most, though, is when I get to combine technological problem solving with art, and there are few mediums that combine the both quite like web development. And I love it.</p>
 	</div>
-	<div id="divider1"><div id="insidediv1-1"></div><div id="insidediv1-2"></div><div id="insidediv1-3"></div><div id="insidediv1-4"></div><div id="insidediv1-5"></div></div>
-	<div id="divider2"><div id="insidediv2-0"></div><div id="insidediv2-1"></div><div id="insidediv2-2"></div><div id="insidediv2-3"></div><div id="insidediv2-4"></div><div id="insidediv2-5"></div></div>
-	<div id="programs" name="programs">
-		<h3>Programs</h3>
-		<h4>During my time at college, I've taken classes on virtual reality, 3D computer gaming, and web development, as well as worked on credited research in which I developed simple computer programs. Below are a few fun examples that show my skillset.</h4>
-		<div id="program-examples">
-			<div class="program-example">
-				<p>Hoi!</p>
-			</div>
-			<div class="program-example">
-				<p>Nuuuuuuu</p>
-			</div>
-			<div class="program-example">
-				
-			</div>
+	<div id="education" class="section gray-section">
+		<h3 id="education-header">Education</h3>
+		<div class="education-box">
+			<h4 class="education-title">Emerson College</h4>
+			<p class="education-years">Sept. 2016-Current</p>
+			<p class="education-major">Visual Media Arts Major</p>
+			<p class="education-info">At Emerson College, I study web development, film, and graphic design, with a current GPA of 3.9 and as a member of the Golden Key Society, an Emerson organization open to students in the top 5% of their class as a junior.</p>
 		</div>
 	</div>
-	<div id="divider3"><div id="insidediv3-0"></div><div id="insidediv3-1"></div><div id="insidediv3-2"></div><div id="insidediv3-3"></div><div id="insidediv3-4"></div><div id="insidediv3-5"></div></div>
-	<div id="divider4"><div id="insidediv4-1"></div><div id="insidediv4-2"></div><div id="insidediv4-3"></div><div id="insidediv4-4"></div><div id="insidediv4-5"></div></div>
-	<div id ="games" name="games">
-		<h3>Games</h3>
-		<h4>Video games have been a huge part of my life, and to me they perfectly encapsulate the cross-section of art and science/technology, a concept truly dear to me. Very recently I've started to make some games,and these are a few that you can play right in your browser!</h4>
-		<div id="game-examples">
-			<div class="game-example">
-				<p>Gem</p>
+	<div id="experience" class="section">
+		<h3 id="experience-header">Experience</h3> 
+		<div id="experience-boxes">
+			<div class="experience-box">
+				<h4 class="experience-title">Research Assistant</h4>
+				<p class="experience-info">At Emerson College, I've had the oppurtunity to work with Professor Ruth Grossman on research that attempts to understand differences between neurotypical and autistic children, writing simple computer programs to organize and process data, editing videos, and working with motion capture data.</p>
 			</div>
-			<div class="game-example">
-				<p>More gem</p>
-			</div>
-			<div class="game-example">
-				<p>One more gem</p>
+			<div class="experience-box">
+				<h4 class="experience-title">Peer Tutor</h4>
+				<p class="experience-info">I've worked as a peer tutor at Emerson college, tutoring for a variety of classes and topics such as HTML and CSS, AutoDesk Maya, and screenwriting, helping other students create projects, understand core concepts, and understand typical workflows.</p>
 			</div>
 		</div>
 	</div>
-	<div id="contact" name="contact">
-		<p>You can find me on Twitter, Instagram, and LinkedIn.</p>
-		<p>Site created by Patrick Westervelt, ©2019</p>
-		<p>Hosted on GitHub Pages</p>
+	<div id="projects" class="section gray-section">
+		<h3 id="projects-header">Projects</h3>
+		<div class="projects-row">
+			<div class="projects-box projects-box-r">
+				<div class="projects-content">
+					<div class="projects-text">
+						<h4 class="projects-title"><a href="https://secure-fortress-60849.herokuapp.com/">PatFlix</a></h4>
+						<p>This website showcases full CRUD capabilities, a simple, responsive replication of a popular streaming service's website, and some of the films I have made with my friends over the years. Made with HTML, CSS, Javascript, EJS, Express, Mongo, and AtlasDB.</p>
+					</div>
+					<img class="projects-img" src="PatflixTeaser.png">
+				</div>
+			</div>
+		</div>
+		<div class="projects-row">
+			<div class="projects-box projects-box-l">
+				<div class="projects-content">
+					<div class="projects-text">
+						<h4 class="projects-title"><a href="https://codepen.io/psytew/pen/JxaVpO/">React Projects</a></h4>
+						<p>Five projects made with pure HTML, CSS and React, performing simple tasks and demonstrating knowledge of JS frameworks, API calls, keyboard inputs, and more. Consists of <a href="https://codepen.io/psytew/pen/xMmbNq">a calculator</a>, <a href="https://codepen.io/psytew/pen/QYJJYr">a drum kit,</a> <a href="https://codepen.io/psytew/pen/YBBKPE">a Pomodoro Clock</a>, <a href="https://codepen.io/psytew/pen/JxaVpO">a random Pokedex Generator</a>, and a <a href="https://codepen.io/psytew/pen/bzQbZB">markdown previewer</a>.</p>
+					</div>
+					<img class="projects-img" src="ReactTeaser.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section flex-section" id="contact">
+		<div id="copyright">Copyright © 2019 Patrick Westervelt</div>
+		<div id="resume">Resume</div>
+		<div><a href="https://www.twitter.com/psytew"><i class="fab fa-twitter"></i></a><a href="https://github.com/Psytew"><i class="fab fa-github"></i></a><a href="mailto:patrickwestervelt.us@gmail.com"><i class="far fa-envelope"></i></a></div>
 	</div>
 </body>
 </html>
