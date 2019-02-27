@@ -177,7 +177,6 @@ i{
 	top: -4px;
 	display: flex;
 	flex-direction: row;
-	width: 500px;
 	background-color: #f96348;
 	border-radius: 5px;
 	left: 50%;
@@ -207,7 +206,7 @@ i{
 }
 
 #about{
-	margin-top: 50px;
+	padding-top: 50px;
 }
 
 #about-header{
