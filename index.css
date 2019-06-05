@@ -78,6 +78,7 @@ i{
 	background-color: white;
 	margin: 0 auto;
 	width: 60%;
+	max-width: 700px;
 	overflow: hidden;
 	padding-left: 10px;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
@@ -111,6 +112,7 @@ i{
 .experience-box{
 	background-color: #f97057;
 	width: 40%;
+	max-width: 400px;
 	margin-left: 5%;
 	margin-right: 5%;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
@@ -229,6 +231,7 @@ i{
 
 #experience-boxes{
 	display: flex;
+	justify-content: space-around;
 }
 
 #contact{
@@ -291,6 +294,7 @@ i{
 	}
 
 	.projects-box{
+		max-width: 500px;
 		width: 90%;
 	}
 
