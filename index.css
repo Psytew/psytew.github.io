@@ -142,17 +142,24 @@ i{
 
 @media only screen and (max-width: 900px) {
 
-	#contact *{
-	text-align: center;
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	#resume{
-		position: block;
-		top: -0;
+	h4{
+		text-align: center;
 	}
 
-	#copyright{
-		position: block;
-		top: 0;
+	.about-box{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.about-desc{
+		text-align: center;
+		width: 300px;
+		margin: 0 auto;
 	}
 }
