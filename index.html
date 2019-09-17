@@ -7,110 +7,66 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-	<div id="navbar">
-		<ul id="navbar-items">
-			<li class="navbar-link"><a href="#about">About</a></li>
-			<li class="navbar-link"><a href="#education">Education</a></li>
-			<li class="navbar-link"><a href="#experience">Experience</a></li>
-			<li class="navbar-link"><a href="#projects">Projects</a></li>
-			<li class="navbar-link"><a href="#contact">Contact/Resume</a></li>
-		</ul>
-	</div>
 	<div id="banner">
 		<span id="banner-text">
-			<h1>Patrick Westervelt.</h1>
+			<h1>Patrick Westervelt</h1>
 			<h2>Artist. Programmer. And everything inbetween.</h2>
 		</span>
 	</div>
-	<div id="about" class="section flex-section">
-		<h3 id="about-header">About Me</h3>
-		<p id="about-text">My name is Patrick, and I really love technology, and I really love art. So often, to me, it feels like the world tries to put those things at some kind of opposition to each other; do you like art, or do you like math and science? Well, what if I like both? Because I do. I love making films with my friends, and I love cracking a difficult problem. The thing I love most, though, is when I get to combine technological problem solving with art, and there are few mediums that combine the both quite like web development. And I love it.</p>
+	<div id="about">
+		<h3 class="section-header"> Who am I? </h3>
+		<img class="me" src="Patrick.jpg">
+		<p class="about-text">Hi. I'm Patrick. I'm a web developer attending Emerson College. I love it all, from the design to the functionality to the duct tape holding it all together. Please, take a look down below at a few of the projects I've worked on or read my resume <a href="WebDev_Resume.pdf">here</a>.</p>
 	</div>
-	<svg class="svg svg-b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-  		<polygon points="100 0 100 10 0 10" />
-	</svg>
-	<div id="education" class="section gray-section">
-		<h3 id="education-header">Education</h3>
-		<div class="education-box">
-			<h4 class="education-title">Emerson College</h4>
-			<p class="education-years">Sept. 2016-Current</p>
-			<p class="education-major">Visual Media Arts Major</p>
-			<p class="education-info">At Emerson College, I study web development, film, and graphic design, with a current GPA of 3.9 and as a member of the Golden Key Society, an Emerson organization open to students in the top 5% of their class as a junior.</p>
-		</div>
-	</div>
-	<svg class="svg svg-a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-  		<polygon points="100 0 100 10 0 10" />
-	</svg>
-	<div id="experience" class="section">
-		<h3 id="experience-header">Experience</h3> 
-		<div id="experience-boxes">
-			<div class="experience-box">
-				<h4 class="experience-title">Research Assistant</h4>
-				<p class="experience-info">At Emerson College, I've had the oppurtunity to work with Professor Ruth Grossman on research that attempts to understand differences between neurotypical and autistic children, writing simple computer programs to organize and process data, editing videos, and working with motion capture data.</p>
-			</div>
-			<div class="experience-box">
-				<h4 class="experience-title">Peer Tutor</h4>
-				<p class="experience-info">I've worked as a peer tutor at Emerson college, tutoring for a variety of classes and topics such as HTML and CSS, AutoDesk Maya, and screenwriting, helping other students create projects, understand core concepts, and understand typical workflows.</p>
+	<div id="info">
+		<h3 class="section-header"> Some Things I've Done </h3>
+		<h4 class="hint">(Click on the pictures for the projects to try them out yourself!)</h4>
+		<div class="about-box">
+			<a href="https://secure-fortress-60849.herokuapp.com/"><img class="projects-img" src="PatflixTeaser.png"></a>
+			<div>
+				<h4>Patflix</h4>
+				<p class="about-desc">This website showcases full CRUD capabilities, a simple, responsive replication of a popular streaming service's website, and some of the films I have made with my friends over the years. Made with HTML, CSS, Javascript, EJS, Express, Mongo, and AtlasDB.</p>
 			</div>
 		</div>
-	</div>
-	<svg class="svg svg-b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-  		<polygon points="100 0 100 10 0 10" />
-	</svg>
-	<div id="projects" class="section gray-section">
-		<h3 id="projects-header">Projects</h3>
-		<div class="projects-row">
-			<div class="projects-box projects-box-l">
-				<div class="projects-content">
-					<div class="projects-text">
-						<h4 class="projects-title"><a target="_blank" href="http://obscure-harbor-76236.herokuapp.com/">Pokemon Or Medication?</a></h4>
-						<p>A website that presents you with a randomized Pokemon and Medication combo, and you have to guess which is which, along with alternate modes, registration for saving scores, and a leaderboard. Made using Laravel with php, Vue, and MySql.</p>
-					</div>
-					<img class="projects-img" src="PokemonOrMedication.png">
-				</div>
+		<div class="about-box">
+			<img class="projects-img" src="idTech.png">
+			<div>
+				<h4>Lead Instructor at iD Tech</h4>
+				<p class="about-desc">During the summer of 2019, I was lucky to work at iD Tech, one of the lead instructors at the Harvard campus. I taught topics such as Javascript, 3D modelling, and virtual reality with C# and Unity, in addition to leading a team of instructors to give a group of kids the best summer possible.</p>
 			</div>
 		</div>
-		<div class="projects-row">
-			<div class="projects-box projects-box-r">
-				<div class="projects-content">
-					<div class="projects-text">
-						<h4 class="projects-title"><a target="_blank" href="https://lightning-mafia.herokuapp.com/">Lightning Mafia</a></h4>
-						<p>Have you ever played the game Mafia, or Werewolf? You need to use your specialized roles to figure out who the villains are in your group, and then convince your teammates to vote for them! Fully playable with other people online, creating a room for you and your friends where the game keeps track of roles as they change through the night. Made using Meteor with React.</p>
-					</div>
-					<img class="projects-img" src="LightningMafiaTeaser.png">
-				</div>
+		<div class="about-box">
+			<a href="https://lightning-mafia.herokuapp.com/"><img class="projects-img" src="LightningMafiaTeaser.png"></a>
+			<div>
+				<h4>Lightning Mafia</h4>
+				<p class="about-desc">Have you ever played the game Mafia, or Werewolf? You need to use your specialized roles to figure out who the villains are in your group, and then convince your teammates to vote for them! Fully playable with other people online, creating a room for you and your friends where the game keeps track of roles as they change through the night. Made using Meteor with React.</p>
 			</div>
 		</div>
-		<div class="projects-row">
-			<div class="projects-box projects-box-l">
-				<div class="projects-content">
-					<div class="projects-text">
-						<h4 class="projects-title"><a target="_blank" href="https://secure-fortress-60849.herokuapp.com/">PatFlix</a></h4>
-						<p>This website showcases full CRUD capabilities, a simple, responsive replication of a popular streaming service's website, and some of the films I have made with my friends over the years. Made with HTML, CSS, Javascript, EJS, Express, Mongo, and AtlasDB.</p>
-					</div>
-					<img class="projects-img" src="PatflixTeaser.png">
-				</div>
+		<div class="about-box">
+			<img class="projects-img" src="EmColl.jpg">
+			<div>
+				<h4>Researcher at Emerson College FACE Lab</h4>
+				<p class="about-desc">During the parts of the year that I attend Emerson College, I assist Professor Ruth Grossman in her studies pertaining to communication science and disorders. I write computer programs that convert motion capture data into a more usable format, as well as edit videos in Adobe Premiere.</p>
 			</div>
 		</div>
-		<div class="projects-row">
-			<div class="projects-box projects-box-r">
-				<div class="projects-content">
-					<div class="projects-text">
-						<h4 class="projects-title"><a target="_blank" href="https://codepen.io/psytew/pen/JxaVpO/">React Projects</a></h4>
-						<p>Five projects made with pure HTML, CSS and React, performing simple tasks and demonstrating knowledge of JS frameworks, API calls, keyboard inputs, and more. Consists of <a href="https://codepen.io/psytew/pen/xMmbNq">a calculator</a>, <a href="https://codepen.io/psytew/pen/QYJJYr">a drum kit,</a> <a href="https://codepen.io/psytew/pen/YBBKPE">a Pomodoro Clock</a>, <a href="https://codepen.io/psytew/pen/JxaVpO">a random Pokedex Generator</a>, and a <a href="https://codepen.io/psytew/pen/bzQbZB">markdown previewer</a>.</p>
-					</div>
-					<img class="projects-img" src="ReactTeaser.png">
-				</div>
+		<div class="about-box">
+			<a href="http://obscure-harbor-76236.herokuapp.com/"><img class="projects-img" src="PokemonOrMedication.png"></a>
+			<div>
+				<h4>Pokemon or Medication?</h4>
+				<p class="about-desc">A website that presents you with a randomized Pokemon and Medication combo, and you have to guess which is which, along with alternate modes, registration for saving scores, and a leaderboard. Made using Laravel with php, Vue, and MySql.</p>
 			</div>
 		</div>
 	</div>
-	<svg class="svg svg-a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-  		<polygon points="100 0 100 10 0 10" />
-	</svg>
-	<div class="section flex-section" id="contact">
+	<div id="contact">
+		<h3 class="section-header">Think I Might be a Good Fit?</h3>
+		<p class="about-text">Like I said, I'm graduating soon, and regardless I'd love to hear about your company or project. Feel free to email me <a href="mailto:patrickwestervelt.us@gmail.com">here</a>. I can't wait to hear back from you.
+	</div>
+	<div id="footer">
 		<div id="copyright">Copyright © 2019 Patrick Westervelt</div>
-		<div id="resume"><a href="WebDev_Resume.pdf">Resume</a></div>
+		<div id="resume"><a class="resume-link" href="WebDev_Resume.pdf">Resume</a></div>
 		<div><a href="https://www.twitter.com/psytew"><i class="fab fa-twitter"></i></a><a href="https://github.com/Psytew"><i class="fab fa-github"></i></a><a href="mailto:patrickwestervelt.us@gmail.com"><i class="far fa-envelope"></i></a></div>
 	</div>
+	<script type="text/javascript" src="particles.min.js"></script>
+	<script type="text/javascript" src="particleController.js"></script>
 </body>
 </html>

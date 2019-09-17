@@ -4,7 +4,7 @@ html{
 }
 
 body{
-	background: white;
+	background: WhiteSmoke;
 	margin: 0px;
 	height: 100%;
 	font-family: 'Karla';
@@ -12,307 +12,135 @@ body{
 }
 
 h1{
-	font-size: 64px;
-	line-height: 64px;
+	font-size: 96px;
+	line-height: 96px;
 }
 
 h2{
-	font-size:32px;
-	line-height: 32px;
+	font-size:48px;
+	line-height: 48px;
 }
 
-h3{
-	font-size: 30px;
-	font-weight: 100;
+h4{
+	font-size: 24px;
 }
 
-li a{
+button {
+	font-family: 'Karla';
+	font-size: 32px;
 	color: white;
-	text-decoration: none
+	background-color: MidnightBlue;
+	border: 3px solid white;
+}
+
+img{
+	height: 300px;
+	border-radius: 50px;
+	margin-right:20px;
 }
 
 i{
 	font-size: 24px;
-	color: black;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.svg{
-  display: block;
-  width: 100%;
-  height: 90px;
-  background: white;
-  fill: #f97057;
-}
-
-.svg-a{
-  transform: rotate(180deg)
-}
-
-.svg-b{
-
-}
-
-.navbar-link{
-	margin: 6px;
-}
-
-.section{
-	padding-top: 25px;
-	padding-bottom: 50px;
-	overflow: hidden;
-}
-
-.flex-section{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.gray-section{
-	background-color: #f97057;
-}
-
-.education-box{
-	background-color: white;
-	margin: 0 auto;
-	width: 60%;
-	max-width: 700px;
-	overflow: hidden;
-	padding-left: 10px;
-	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-}
-
-.education-box *{
-	padding-left: 10px;
-}
-
-.education-title{
-	font-size: 24px;
-	font-weight: 200;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-
-.education-years{
-	font-size: 18px;
-	padding-right: 10px;
-	position: relative;
-	float: right;
-	top: -37px;
-}
-
-.education-major{
-	font-size: 18px;
-}
-
-.experience-box{
-	background-color: #f97057;
-	width: 40%;
-	max-width: 400px;
-	margin-left: 5%;
-	margin-right: 5%;
-	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-}
-
-.experience-title{
-	font-size: 24px;
-	font-weight: 200;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	text-align: center;
-}
-
-.experience-info{
-	padding: 10px 15px;
-}
-
-.projects-filler{
-	width: 40%;
-}
-
-.projects-box{
-	background-color: white;
-	width: 60%;
-	margin-right: 10%;
-	margin-left: 10%;
-	margin-bottom: 50px;
-	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-}
-
-.projects-box-r{
-	float: right;
-}
-
-.projects-box-l{
-	float: left;
-}
-
-.projects-title{
-	font-size: 32px;
-	text-align: center;
-}
-
-.projects-content{
-	display: flex;
-}
-
-.projects-text{
-	padding: 15px;
-	margin: auto;
-}
-
-.projects-img{
-	width: 50%;
-	height: 50%;
-}
-
-#navbar{
-	position: fixed;
-	top: -4px;
-	display: flex;
-	flex-direction: row;
-	background-color: #f96348;
-	border-radius: 5px;
-	left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 10;
-    width: 520px;
-}
-
-#navbar *{
-	display: inline;
-}
-
-#navbar-items{
-	padding-left: 0;
-	margin: 20px auto;
-	font-size: 18px;
+	color: white;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	margin-top: -10px;
 }
 
 #banner{
 	height: 100%;
 	width: 100%;
-	line-height: 100%;
-	background-color: #f96348;
+	background-color: MidnightBlue;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
 }
 
-#about{
-	padding-top: 50px;
+.particles-js-canvas-el{
+	position: absolute;
 }
 
-#about-header{
-	padding-left: 5%;
-	flex: 0.25;
+#banner-text{
+	color: LightGrey;
 }
 
-#about-text{
-	font-size: 18px;
-	padding: 8px;
-	flex: 0.75;
-	padding-right: 30px;
-}
-
-#education-header, #experience-header, #projects-header, #contact-header{
+.section-header{
 	text-align: center;
-	padding-bottom: 10px;
+	font-size: 40px;
+	margin: 0;
+	padding-top: 25px;
 }
 
-#experience-boxes{
+.hint{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+
+#about{
+	background-color:Gainsboro;
+}
+
+.about-text{
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	padding: 25px;
+}
+
+.about-box{
 	display: flex;
-	justify-content: space-around;
-}
-
-#contact{
-	padding-top: 50px;
+	width: 800px;
+	margin: 0 auto;
 	padding-bottom: 30px;
 }
 
-#contact *{
+.about-desc{
+	font-size: 18px;
+}
+
+.me{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact{
+	background-color: white;
+}
+
+#footer{
 	text-align: center;
-	flex: 0.33;
+	background-color: MidnightBlue;
+	color: white;
+	display: flex;
+	flex-direction: column;
 }
 
 #resume{
 	position: relative;
 	font-size: 32px;
 	top: -12px;
+	color: white;
+}
+
+.resume-link{
+	color: white;
+	padding: 0;
 }
 
 #copyright{
 	position: relative;
 	top: 10px;
+	margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 1100px) {
-	.projects-img{
-		margin: 0 auto;
-	}
-
-	.flex-section{
-		display: block;
-	}
-
-	.education-box{
-		width: 90%;
-	}
-
-	.education-box p{
-		padding-right: 5%;
-	}
-
-	.education-years{
-		position: static;
-		float: none;
-		top: 0;
-		display: inline;
-	}
-
-	.projects-content{
-		display: block;
-	}
-
-	.projects-img{
-		width: 100%;
-		margin: auto;
-		float: none;
-	}
-
-	.projects-title{
-		margin: 0;
-	}
-
-	.projects-box{
-		max-width: 500px;
-		width: 90%;
-	}
-
-	.projects-box-r, .projects-box-l{
-		float: none;
-		margin: 0 auto;
-		margin-bottom: 20px;
-		padding-bottom: 0;
-	}
-
-	#about-header{
-		text-align: center;
-	}
-
-	#about-text{
-		padding-left: 40px;
-		padding-right: 40px;
-	}
 
 	#contact *{
 	text-align: center;
@@ -330,17 +158,5 @@ i{
 }
 
 @media only screen and (max-width: 800px){
-	#navbar{
-		display: none;
-	}
 
-	.experience-box{
-		width: 80%;
-		margin: 0 auto;
-	}
-
-	#experience-boxes{
-		display: block;
-		margin: auto;
-	}
 }
